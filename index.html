@@ -22,8 +22,8 @@
 
 </head>
 <body class="bg-white">
-     <!-- Navigation Bar -->
-     <nav class="bg-white border-b border-gray-200">
+    <!-- Navigation Bar -->
+    <nav class="bg-white border-b border-gray-200">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
             <div class="flex justify-between h-16 items-center">
                 <!-- Logo -->
@@ -70,7 +70,6 @@
                   <div class="pl-8">
                     <img src="images/TG-2000Generator.png" alt="TG-2000 Generator" class="mx-auto md:ml-8 ml-4"/>   
                   </div>                    
-                  
                   
                    <!-- Feature Points -->
                     <div class="absolute top-0 left-0 w-full h-full">
@@ -167,61 +166,96 @@
         </div>
     </section>
 
-    <section class="relative bg-gradient-to-b from-[#3D69B2] to-white-100 text-center py-16">
-      <div class="container mx-auto px-6">
-        <h1 class="text-7xl md:text-9xl font-bold text-white opacity-60 text-center">TG-2000</h1>
     
-        <div class="relative z-20">
-          <img src="images/TG-2000Generator.png" 
-               alt="TG-2000 Generator" 
-               class="w-full max-w-md md:max-w-lg lg:max-w-xl drop-shadow-lg relative -mb-20 
-                      sm:translate-x-12 mx-auto pl-8"/>
+    <section class="relative bg-gradient-to-b from-[#3D69B2]  via-[#85A3D6] to-gray-200 pb-32 ">
+        <!-- Large TG-2000 Text -->
+        <div class="container mx-auto px-4 pt-8">
+            <h1 class="text-8xl md:text-[180px] font-bold text-white/80 text-center leading-none">
+                TG-2000
+            </h1>
         </div>
     
-        <div class="mt-6 mx-auto max-w-4xl bg-white shadow-lg rounded-t-3xl md:px-24 py-12 relative z-10">
-            <h2 class="text-2xl md:text-3xl font-semibold mb-6">
-                Introducing<br />
-                the <span class="text-blue-700">TG - 2000 LPG</span> generators.<br />
-                Now available in Nigeria
-              </h2>
+        <!-- Generator Image Container with White Semicircle -->
+        <div class="relative mt-[-50px] h-full"> <!-- Adjusted margin-top to bring the semicircle closer to the text -->
+            <!-- White semicircle background -->
+            <div class="absolute left-1/2 -translate-x-1/2 mx-auto  md:top-[150px] top-[85px]  w-[100%] md:w-[90%] aspect-[2/2.8]  md:aspect-[3/1.7] overflow-hidden">
+
+                <div class="absolute inset-0 bg-white rounded-t-full shadow-lg"></div>
+
+                <div class="absolute inset-0 bg-white rounded-t-full scale-100"></div>
+                <div class="absolute inset-1 bg-gray-200 rounded-t-full shadow-lg "></div>
+
+
+            </div>
+
           
-            <p class="text-gray-600 mt-4 text-center">
-                With diesel prices at <span class="font-bold text-gray-800">₦1600 per litre</span> and LPG at 
-                <span class="font-bold text-gray-800">₦550</span>, switching to TG-2000 will significantly reduce your energy costs.
+    
+            <!-- Generator Image -->
+            <div class="relative z-10 mx-auto max-w-2xl md:mt-0 mt-4 px-4 pl-16">
+                <img 
+                    src="images/TG-2000Generator.png"
+                    alt="TG-2000 Generator"
+                    class="w-full h-auto object-contain mx-auto pl-8"
+                />
+            </div>
+        </div>
+    
+        <!-- Content Section -->
+        <div class="relative z-20 max-w-2xl mx-auto px-4 text-center mt-[-80px]"> <!-- Adjusted margin-top to overlap the semicircle -->
+            <h2 class="text-2xl md:text-3xl font-bold mt-20 mb-4">
+                Introducing<br/>
+                the <span class="text-blue-800">TG-2000 LPG</span> generators.<br/>
+                Now available in Nigeria
+            </h2>
+    
+            <p class="text-gray-600 mb-6">
+                With diesel prices at ₦1600 per litre and LPG at ₦550, switching to TG-2000 will 
+                significantly reduce your energy costs.
             </p>
     
-            <p class="text-gray-600 mt-4 text-center">You get to enjoy:</p>
+            <p class="text-gray-600">You get to enjoy:</p>
     
-            <ul class="mt-6 text-gray-700 space-y-3 flex flex-col items-center">
-                <li class="flex items-center">
-                    <img src="images/icons/check.png" alt="" class="mr-2"> Less noise and reduced maintenance.
-                </li>
-                <li class="flex items-center">
-                    <img src="images/icons/check.png" alt="" class="mr-2"> Cleaner energy and lower carbon emissions.
-                </li>
-                <li class="flex items-center">
-                    <img src="images/icons/check.png" alt="" class="mr-2"> Up to 65% savings on fuel costs.
-                </li>
-            </ul>
+            <!-- Checkmarks section -->
+            <div class="space-y-2 my-4">
+                <div class="flex items-center justify-center gap-2">
+                    <svg class="w-5 h-5 text-green-500 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
+                    </svg>
+                    <span class="text-gray-700">Less noise and significantly reduced maintenance.</span>
+                </div>
     
-            
-            <div class="text-center">
-                <a href="#" class="mt-6 inline-block bg-blue-800 text-white font-bold py-3 px-8 rounded-lg shadow-md">
-                    Get a Quote
-                </a>
+                <div class="flex items-center justify-center gap-2">
+                    <svg class="w-5 h-5 text-green-500 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
+                    </svg>
+                    <span class="text-gray-700">Cleaner energy and lower carbon emissions;</span>
+                </div>
+    
+                <div class="flex items-center justify-center gap-2">
+                    <svg class="w-5 h-5 text-green-500 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
+                    </svg>
+                    <span class="text-gray-700">Up to 65% savings on fuel costs;</span>
+                </div>
             </div>
-            
-            <p class="text-sm text-gray-500 mt-4 text-center italic">
+    
+            <!-- CTA Button -->
+            <button class="bg-[#0040FF] text-white px-8 py-3 rounded-lg font-semibold mt-6 hover:bg-[#0030CC] transition-colors">
+                Learn more
+            </button>
+    
+            <!-- Footer text -->
+            <p class="text-sm text-gray-500 italic mt-4">
                 Switching to the TG-2000 LPG generator can save you millions of naira every month
             </p>
         </div>
-    </div>
-    
     </section>
-
+    
+    
+    
     <!-- Features area -->
 
-    <section class="bg-gray-100">
+    <section class="bg-gray-100 mt-0">
       <div class="bg-gradient-to-br from-gray-200 to-gray-50 py-12  p-12  max-w-5xl mx-auto">
         <div class=" px-6 grid md:grid-cols-2 gap-8 items-center">
           
@@ -414,3 +448,83 @@
   
 </body>
 </html>
+
+
+
+
+
+<!-- I think I'm close with the adjustment, infact so close. but the semicircle doesn't reach the down  of the page, infact it look worse when I change to a mobile view, it stops at half of the text area. Also, if you look at the image, you would see that the semicirlce has a level of thickness to it, or kind of duplicated, I dont know how we can achieve that instaed of just having one round thin line.
+ <section class="relative bg-gradient-to-b from-[#3D69B2] via-[#85A3D6] to-[#85A3D6] pb-32">
+  
+    <div class="container mx-auto px-4 pt-8">
+        <h1 class="text-8xl md:text-[180px] font-bold text-white/80 text-center leading-none">
+            TG-2000
+        </h1>
+    </div>
+
+    <div class="relative mt-[-50px]"> 
+        
+        <div class="absolute left-1/2 -translate-x-1/2 top-64 w-full aspect-[3/1.2]">
+            <div class="absolute inset-0 bg-white rounded-t-full shadow-lg"></div>
+        </div>
+
+      
+        <div class="relative z-10 mx-auto max-w-2xl px-4">
+            <img 
+                src="images/TG-2000Generator.png"
+                alt="TG-2000 Generator"
+                class="w-full h-auto object-contain mx-auto pl-8"
+            />
+        </div>
+    </div>
+
+    
+    <div class="relative z-20 max-w-2xl mx-auto px-4 text-center mt-[-100px]"> 
+        <h2 class="text-2xl md:text-3xl font-bold mt-20 mb-4">
+            Introducing<br/>
+            the <span class="text-blue-800">TG-2000 LPG</span> generators.<br/>
+            Now available in Nigeria
+        </h2>
+
+        <p class="text-gray-600 mb-6">
+            With diesel prices at ₦1600 per litre and LPG at ₦550, switching to TG-2000 will 
+            significantly reduce your energy costs.
+        </p>
+
+        <p class="text-gray-600">You get to enjoy:</p>
+
+      
+        <div class="space-y-2 my-4">
+            <div class="flex items-center justify-center gap-2">
+                <svg class="w-5 h-5 text-green-500 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
+                </svg>
+                <span class="text-gray-700">Less noise and significantly reduced maintenance.</span>
+            </div>
+
+            <div class="flex items-center justify-center gap-2">
+                <svg class="w-5 h-5 text-green-500 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
+                </svg>
+                <span class="text-gray-700">Cleaner energy and lower carbon emissions;</span>
+            </div>
+
+            <div class="flex items-center justify-center gap-2">
+                <svg class="w-5 h-5 text-green-500 flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"/>
+                </svg>
+                <span class="text-gray-700">Up to 65% savings on fuel costs;</span>
+            </div>
+        </div>
+
+       
+        <button class="bg-[#0040FF] text-white px-8 py-3 rounded-lg font-semibold mt-6 hover:bg-[#0030CC] transition-colors">
+            Learn more
+        </button>
+
+       
+        <p class="text-sm text-gray-500 italic mt-4">
+            Switching to the TG-2000 LPG generator can save you millions of naira every month
+        </p>
+    </div>
+</section> -->
